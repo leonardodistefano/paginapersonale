@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'GTWalsheimProUltraBold';
+    src: url('GTWalsheimProUltraBold.woff2') format('woff2'),
+        url('GTWalsheimProUltraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sneakers';
+    src: url('Sneakers.woff2') format('woff2'),
+        url('Sneakers.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GTCinetypeLight';
+    src: url('GTCinetypeLight.woff2') format('woff2'),
+        url('GTCinetypeLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+

@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+
+
+
+<body class="sfondo">
+
+	    <video id="video" width="570" height="410" controls  loop muted> <source src="composizionevideo.mp4" type="video/mp4"> </video>	
+		<video id="video2" width="570" height="410" controls  loop muted> <source src="ghiaccio.mp4" type="video/mp4"> 	</video>
+			<video id="video3" width="570" height="410" controls  loop muted> <source src="svaria.mp4" type="video/mp4"> 	</video>
+				<p class="titolo"><a href="video.html" onmouseover="Opacitychange1()" onmouseout="Opacityback1()">VIDEO</a></p>
+
+	</body>
+
+	<footer class="sfondo">
+		    <div class="immsott">
+		    <a href="sea.html"><img src="diste.png" width="260" height="180" ></a>
+	        </div>
+		    <div class="testopiede">
+			<p>waves could be the ocean's personality</p>
+			<p>   </p>
+		    </div>
+</footer>
+
+
+
+<style>
+@font-face{
+	font-family: font;
+	src: url(GTWalsheimProUltraBold.woff);
+}
+@font-face{
+	font-family: font2;
+	src: url(GTCinetypeLight.woff);
+}
+@font-face{
+	font-family: font3;
+	src: url(Sneakers.woff);
+}
+.titolo {
+	z-index: -1;
+	position: absolute;
+	color: white;
+	font-size: 200px;
+	
+	
+	line-height: 10px;
+	font-family: font;
+
+	left: 50%;
+	top: 90%;
+	transform: translate(-50%, -50%);
+}
+.sfondo {
+	background-color: black;
+	animationòò: sfondo 1s infinite;
+}
+#video2 {
+	opacity:1;
+	position: absolute;
+	left:50%;
+	top:50%;
+}
+
+#video {
+
+	z-index:1;
+	opacity:1;
+	position: absolute;
+	left:50%;
+	top:0%;
+
+}
+#video3 {
+
+	z-index:1;
+	opacity:1;
+	position: absolute;
+	margin-left: 40px;
+	top:50%;
+
+}
+.testopiede {
+	color: white;
+	margin: 40px;
+	margin-top: -10px;
+	line-height: 10px;
+	font-family: font2;
+	}
+.immsott {
+	margin: 40px;
+	margin-top: -10px;
+
+}
+@keyframes sfondo {
+	from {
+		background-color: black;
+	}
+	to {
+		background-color: gray;
+}
+	}
+a
+{ text-decoration: none;
+	color: white; }
+
+a:hover{
+	color: black;
+	text-shadow: 
+	-1px -1px 0 #fff,
+	1px -1px 0 #fff,
+	-1px 1px 0 #fff,
+	1px 1px 0 #fff;
+}
+</style>
+
+
+<script>
+function Opacitychange1() {
+  document.getElementById("video").style.opacity = "1";
+}
+function Opacityback1() {
+  document.getElementById("video").style.opacity = "0";
+
+</script>

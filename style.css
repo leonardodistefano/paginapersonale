@@ -1,0 +1,86 @@
+@font-face{
+	font-family: font;
+	src: url(GTWalsheimProUltraBold.woff);
+}
+@font-face{
+	font-family: font2;
+	src: url(GTCinetypeLight.woff);
+}
+@font-face{
+	font-family: font3;
+	src: url(Sneakers.woff);
+}
+.scarpe {
+	text-align: center;
+	font-family: font3;
+	color: white;
+	font-size: 25px;
+}
+.testa {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	font-family: font2;
+}
+.menu{
+	color: white;
+	font-size: 100px;
+	margin: 40px;
+	margin-top: -10px;
+	line-height: 10px;
+	font-family: font;
+}
+a
+{ text-decoration: none;
+	color: white; }
+
+a:hover{
+	color: black;
+	text-shadow: 
+	-1px -1px 0 #fff,
+	1px -1px 0 #fff,
+	-1px 1px 0 #fff,
+	1px 1px 0 #fff;
+}
+#onda{
+	z-index:-1;
+	opacity:0;
+	position:absolute;
+	left:50%;
+	top:20%;
+}
+#design {
+	z-index:-1;
+	opacity:0;
+	position:absolute;
+	left:50%;
+	top:20%;
+}
+#video{
+	z-index:-1;
+	opacity:0;
+	position: absolute;
+	left:50%;
+	top:20%;
+}
+#travel {
+	z-index:-1;
+	opacity:0;
+	position:absolute;
+	left:50%;
+	top:20%;
+}
+.testopiede {
+	color: white;
+	margin: 40px;
+	margin-top: -10px;
+	line-height: 10px;
+	font-family: font2;
+}
+.immsott {
+	margin: 40px;
+	margin-top: -10px;
+}
+.sfondo {
+	background-color: black; 
+}
